@@ -17,8 +17,8 @@ const ListComponent:
         return <div>
             <h2>{props.listTitle}</h2>
             <List className={classes.root}>
-            {props.data.map(listOfItems => {
-                return <ListItem>
+            {props?.data.map(listOfItems => {
+                return <ListItem key={listOfItems.id}>
                     <ListItemAvatar>
                         <Avatar>
                             <WorkIcon />
