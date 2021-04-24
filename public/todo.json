@@ -1,17 +1,17 @@
 {
     "todo" : [
-        { "id": 1, "description": "Learn Typsescript with react", "status": "todo" },
-        { "id": 2, "description": "Learn Node js microservices using Next", "status": "todo" },
-        { "id": 3, "description": "Learn Relay, GraphQL, SQL", "status": "todo" }
+        { "id": 1, "description": "Learn Typsescript with React", "status": "Todo" },
+        { "id": 2, "description": "Learn Redux toolkit", "status": "Todo" },
+        { "id": 3, "description": "Learn Relay, GraphQL, SQL", "status": "Todo" }
     ],
     "progress" : [
-        { "id": 1, "description": "Learn Typsescript with react", "status": "todo" },
-        { "id": 2, "description": "Learn Node js microservices using Next", "status": "todo" },
-        { "id": 3, "description": "Learn Relay, GraphQL, SQL", "status": "todo" }
+        { "id": 1, "description": "Learn React Hooks", "status": "Progress" },
+        { "id": 2, "description": "Learn CSS/Scss", "status": "Progress" },
+        { "id": 3, "description": "Learn Python", "status": "Progress" }
     ],
     "done" : [
-        { "id": 1, "description": "Learn Typsescript with react", "status": "todo" },
-        { "id": 2, "description": "Learn Node js microservices using Next", "status": "todo" },
-        { "id": 3, "description": "Learn Relay, GraphQL, SQL", "status": "todo" }
+        { "id": 1, "description": "Learn Redux", "status": "Done" },
+        { "id": 2, "description": "Learn Node js microservices using Next", "status": "Done" },
+        { "id": 3, "description": "Learn HTML", "status": "Done" }
     ]
 }

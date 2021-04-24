@@ -1,0 +1,30 @@
+.input-class {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    background-color: white;
+    outline: none;
+    padding-left: 10px;
+}
+
+.input-container {
+    text-align: center;
+    margin: 10px,
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button-class {
+    border: none;
+    background: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
