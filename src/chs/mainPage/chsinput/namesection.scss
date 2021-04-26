@@ -1,0 +1,48 @@
+@keyframes move {
+    from {left: 0px;}
+    to { margin-left: 200px; left: 400px;}
+}
+
+.name-section-main {
+    width: 500px;
+    max-height: 700px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px lightgray;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.namesection-title-container {
+    text-align: center;
+}
+
+.namesection-input-container {
+    margin: 10px;
+    text-align: center;
+}
+.namesection-input {
+    width : 300px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid lightgray;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.namsesection-button-container {
+    text-align: center;
+    margin-top: 35px;
+}
+.namespace-button {
+    border: none;
+    background: none;
+    width: 80px;
+    height: 45px;
+    background-color: #028E0F;
+    border-radius: 8px;
+    outline: none;
+    color: white;
+}

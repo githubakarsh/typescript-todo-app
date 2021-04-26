@@ -6,6 +6,7 @@ import JourneyProvider from './hooks/contexthook/JourneyProvider';
 import QueryParser from './utils/QueryParser';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 const rootId = document.getElementById('root');
@@ -14,11 +15,13 @@ let component = <>Error </>
 try{
   QueryParser(window.location.search);
    component = (<React.StrictMode>
+    <Router>
      <Provider store={store}>
     <JourneyProvider value={{ path : "something"}}>
       <App />
     </JourneyProvider>
     </Provider>
+  </Router>
   </React.StrictMode>)
 } catch(error) {
   component = <>Error </>
