@@ -10,13 +10,9 @@ import Divider from '@material-ui/core/Divider';
 import './list.scss';
 
 let dataObjType: Array<{ id: number, description: string, status: string }>;
-
 const ListComponent:
     FunctionComponent<{ data: typeof dataObjType, listTitle: string }> = (props) => {
-
         const classes = ListStyler();
-        
-
         return <div>
             <h2 style={{textAlign: 'center'}}>{props.listTitle}</h2>
             <div className="input-container">
